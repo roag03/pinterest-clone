@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 12px 4px 4px 16px;
+  color: black;
+  background-color: white;
+}
+
+.header__icon {
+  color: #e60023;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+
+   .header__homeButton{
+       display: flex;
+       font-size: 15px;
+          font-weight: 900;
+           color: white;
+           background-color: black;
+           border: none;
+           border-radius: 27px ;
+           padding: 15px 15px ;
+           margin-left:13px ;
+   }
+
+.header__todayButton{
+  color: black;
+  font-weight: 750;
+  font-size: 17px;
+  border: none;
+ margin-left: 10px;
+  background:none;
+}
+
+.header__todayButton:hover{
+    background-color: lightgrey;
+    border-radius: 27px ;
+    padding: 15px 15px ;
+}
+.header__searchBar{
+    flex: 1;
+    background-color: #efefef;
+    display: flex;
+    height: 48px;
+    width: 100%;
+    border-radius: 50px;
+    padding-left:10px ;
+    margin-left: 18px;
+
+}
+.header__form{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 48px;
+    width: 100%;
+}
+.header__searchIcon{
+    
+    stroke: grey;
+     stroke-width: 1.5;
+     padding: 0px 6px;
+}
+.header__form > input{
+    flex: 1;
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    background-color: #efefef;
+    outline: none; 
+}
+.header__form > input:focus{
+    outline: none;
+}
+.header__form > button{
+   display: none ;
+}
+
+.header__lastIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.header__lastIcons > *{
+    color: grey;
+     transform: scale(1.2);
+    margin: 10px 12px;
+    
+} 

@@ -1,0 +1,31 @@
+.mainboard {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.mainboard__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+
+@media all and (max-width:650px)   {
+   .mainboard__content{
+  
+
+  
+     align-items: center;
+     
+   min-width: 640px;
+      height: 100%;
+     column-count: 2;
+     flex: 1;
+     
+     
+   }
+}

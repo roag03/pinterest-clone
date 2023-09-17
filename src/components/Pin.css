@@ -1,0 +1,58 @@
+.pin {
+  display: inline-flex;
+  padding: 8px;
+}
+.pin__images {
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 236px;
+}
+
+
+.pin__images > img {
+  width: 100%;
+  cursor: zoom-in;
+  border-radius: 16px;
+  object-fit: cover;
+
+}
+
+.pin__downloadBtn {
+  font-size: 15px;
+  font-weight: 900;
+  z-index: 2;
+  color: white;
+  background-color: rgb(230, 0, 35);
+  border: none;
+  border-radius: 27px;
+  padding: 15px 15px;
+  margin-right: 7px;
+  position: relative;
+  top: 60px;
+  text-decoration: none;
+  float: right;
+  opacity: 1;
+}
+.not-active {
+  opacity: 0;
+  font-size: 15px;
+  font-weight: 900;
+  z-index: 2;
+  color: white;
+  background-color: rgb(230, 0, 35);
+  border: none;
+  border-radius: 27px;
+  padding: 15px 15px;
+  margin-right: 7px;
+  position: relative;
+  top: 60px;
+  text-decoration: none;
+  float: right;
+}
+
+/* #active {
+  opacity: 1;
+}
+#not-active {
+  opacity: 0;
+} */
